@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List App</title>
+</head>
+<body>  
+    
+    <main>
+        <div class="container">
+
+        <div class="stats-container">
+
+            <div class="heading">
+                <h1>To-do App</h1>
+            </div>
+            
+            <div id="stats">
+                <div class="stats-numbers">
+                    <p id="stats-para">Number of Task Completed</p>
+                    <p id="numbers">0 / 0</p>
+                </div>
+                <div class="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <form>
+            <input id="taskInput" type="text" placeholder="Type here....">
+            <button id="newTask" type="submit">
+                <p class="hide-btn">Add</p>
+                <p class="hide-plus">+</p>
+            </button>
+        </form>
+
+        <ul class="tasklist" >
+
+        </ul>
+
+        </div>
+    </main> 
+
+    <script src="script.js"></script>
+</body>
+</html>
